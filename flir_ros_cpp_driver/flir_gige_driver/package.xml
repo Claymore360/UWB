@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>flir_gige_driver</name>
+  <version>0.0.1</version>
+  <description>FLIR GigE camera ROS publisher based on Spinnaker C++ SDK.</description>
+
+  <maintainer email="unitree@example.com">unitree</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+
+  <export/>
+</package>

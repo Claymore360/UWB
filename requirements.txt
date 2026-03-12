@@ -1,0 +1,15 @@
+numpy==2.3.0
+matplotlib==3.10.3
+opencv-python
+openai>=1.0.0
+requests==2.32.3
+tqdm==4.67.1
+pillow==11.2.1
+
+# Robot-side runtime add-ons (Unitree Ubuntu 20.04)
+# Used by ROS-related scripts and utility tooling.
+pyyaml>=6.0
+
+# NOTE:
+# ROS deps (rospy/cv_bridge/sensor_msgs) and FLIR Spinnaker are installed by apt/deb,
+# not by pip. See README.md "机器狗实机新增内容（迁移重点）" for deployment steps.

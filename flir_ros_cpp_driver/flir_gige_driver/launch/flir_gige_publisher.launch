@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="flir_gige_driver" type="flir_gige_publisher" name="flir_gige_publisher" output="screen" respawn="true" respawn_delay="2.0">
+    <param name="target_ip" value="192.168.123.100"/>
+    <param name="topic_name" value="/camera/fisheye/image_raw"/>
+    <param name="fps" value="15"/>
+  </node>
+</launch>
